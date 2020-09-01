@@ -4,7 +4,7 @@ setup(
     name='django-vkontakte-users',
     version=__import__('vkontakte_users').__version__,
     description='Django implementation for vkontakte API Users',
-    long_description=open('README.md').read(),
+    long_description=open('README.md',"rb").read().decode('utf8'),
     author='ramusus',
     author_email='ramusus@gmail.com',
     url='https://github.com/ramusus/django-vkontakte-users',
